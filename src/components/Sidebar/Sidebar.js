@@ -65,7 +65,7 @@ const Sidebar=()=> {
             </div>
             </div>
           <li>
-            <NavLink exact to="/job-openings" >Careers</NavLink>
+            <NavLink exact to="/careers" >Blogs</NavLink>
           </li>
           <li>
             <NavLink exact to="/carrer-details" >Careers Data Details</NavLink>

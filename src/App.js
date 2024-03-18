@@ -28,7 +28,7 @@ function App() {
           <PrivateRoute path="/donor-leads" component={DonorLeads} />
           <PrivateRoute path="/needy-leads" component={NeedyLeads} />
           <PrivateRoute path="/gallery" component={Gallery} />
-          <PrivateRoute path="/job-openings" component={Careers} />
+          <PrivateRoute path="/careers" component={Careers} />
           <PrivateRoute path="/carrer-details" component={CarrerDetails} />
           <Route path="/Login" component={Login} />
           <Route path="/morgan-dashboard-SignUp" component={SignUp} />
