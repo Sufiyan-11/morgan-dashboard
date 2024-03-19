@@ -39,9 +39,9 @@ const Sidebar=()=> {
           <li>
             <NavLink exact to="/blogs" >Paintings</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink exact to="/gallery" >Gallery</NavLink>
-          </li>
+          </li> */}
           <div class="accordion " id="accordionExample">
             <div id="drop-nav-1">
                 <li className="drop-nav">
@@ -55,23 +55,23 @@ const Sidebar=()=> {
                     Contacts Leads
                     </NavLink>
                   </li>
-                  <li className="bg-light">
+                  {/* <li className="bg-light">
                     <NavLink to="/donor-leads">Donor Leads</NavLink>
                   </li>
                   <li className="bg-light">
                     <NavLink to="/needy-leads">Needy Leads</NavLink>
-                  </li>
+                  </li> */}
                 </div>
             </div>
             </div>
           <li>
             <NavLink exact to="/careers" >Blogs</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink exact to="/carrer-details" >Careers Data Details</NavLink>
-          </li>
+          </li> */}
           <li>
-            <a href="http://www.mlhngo.com/" target="_blank" rel="noopener noreferrer">MLH Trust</a>
+            <a href="https://react-website-morgan.netlify.app/#/" target="_blank" rel="noopener noreferrer">Morgan Website</a>
           </li>
           <li>
             <a  onClick={()=>fire.auth().signOut()}>Sign Out</a>
