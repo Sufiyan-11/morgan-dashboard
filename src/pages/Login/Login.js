@@ -54,14 +54,14 @@ function Login(props) {
                     <div className="form-group">
                         <button onClick={login} className="btn btn-primary btn-md btn-block waves-effect text-center m-b-20">Login Now</button>
                     </div>
-                    <div className="or py-3">
+                    {/* <div className="or py-3">
                     <h3><span>or</span></h3>
                     </div>
                     <div className="row pt-3">
                       <div className="col-lg-12 text-center">
                       <p class="text-center"> Don't have an account?  <Link to="/morgan-dashboard-SignUp">Sign up</Link></p>
                       </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
